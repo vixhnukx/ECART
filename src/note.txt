@@ -1,0 +1,29 @@
+-lazy loading technique
+
+    ng g module module name
+
+
+
+-lazy loaded module creation
+
+    ng g module modulename --route modulename --module rootmoduleName
+
+
+
+
+    to install json server
+
+        npm i --save json-server
+
+    to run json server
+
+        npx json-server --watch db.json --port 3000
+
+
+
+        access data fron component path
+        ...............................
+
+
+        ActivatedRoute   -  class
+        params           -  method
